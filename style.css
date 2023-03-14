@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 35px;
+}
+.image{
+    height: 300px;
+    width: auto;
+}
+.main{
+    display: inline-block;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding-bottom: 35px;
+}
+
+.squre{
+    height: 150px;
+    width: 150px;
+    border: solid black 1px;
+}
+
+.mole{
+    background-image: url('mole.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
